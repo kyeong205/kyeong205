@@ -1,0 +1,60 @@
+name: Generate contribution snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every day at 06:17 Asia/Seoul (21:17 UTC).
+    - cron: "17 21 * * *"
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .github/workflows/snake.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Generate light and dark SVGs
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#0f766e
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#5eead4
+
+      - name: Verify generated SVGs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib
+          import xml.etree.ElementTree as ET
+
+          for name in ("github-contribution-grid-snake.svg", "github-contribution-grid-snake-dark.svg"):
+              path = pathlib.Path("dist") / name
+              root = ET.parse(path).getroot()
+              assert root.tag == "{http://www.w3.org/2000/svg}svg", f"Invalid SVG: {path}"
+              assert root.get("viewBox"), f"Missing viewBox: {path}"
+              print(f"Validated {path} ({path.stat().st_size} bytes)")
+          PY
+
+      - name: Publish SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          commit_message: "chore: refresh contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
