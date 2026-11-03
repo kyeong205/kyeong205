@@ -11,6 +11,8 @@
   <img src="https://img.shields.io/badge/JavaScript-202B3D?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-202B3D?style=flat-square&amp;logo=typescript&amp;logoColor=60A5FA" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Java-202B3D?style=flat-square&amp;logo=openjdk&amp;logoColor=F8FAFC" alt="Java" />
+  <img src="https://img.shields.io/badge/C-202B3D?style=flat-square&amp;logo=c&amp;logoColor=93C5FD" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-202B3D?style=flat-square&amp;logo=cplusplus&amp;logoColor=93C5FD" alt="C++" />
   <img src="https://img.shields.io/badge/C%23-202B3D?style=flat-square" alt="C#" />
   <img src="https://img.shields.io/badge/Kotlin-202B3D?style=flat-square&amp;logo=kotlin&amp;logoColor=C4B5FD" alt="Kotlin" />
   <img src="https://img.shields.io/badge/Dart-202B3D?style=flat-square&amp;logo=dart&amp;logoColor=67E8F9" alt="Dart" />
@@ -22,11 +24,13 @@
 
 <p>
   <img src="https://img.shields.io/badge/React-202B3D?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-202B3D?style=flat-square&amp;logo=nextdotjs&amp;logoColor=F8FAFC" alt="Next.js" />
   <img src="https://img.shields.io/badge/Spring%20Boot-202B3D?style=flat-square&amp;logo=springboot&amp;logoColor=86EFAC" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/Node.js-202B3D?style=flat-square&amp;logo=nodedotjs&amp;logoColor=86EFAC" alt="Node.js" />
   <img src="https://img.shields.io/badge/Android-202B3D?style=flat-square&amp;logo=android&amp;logoColor=86EFAC" alt="Android" />
   <img src="https://img.shields.io/badge/Flutter-202B3D?style=flat-square&amp;logo=flutter&amp;logoColor=67E8F9" alt="Flutter" />
   <img src="https://img.shields.io/badge/Unity-202B3D?style=flat-square&amp;logo=unity&amp;logoColor=F8FAFC" alt="Unity" />
+  <img src="https://img.shields.io/badge/Docker-202B3D?style=flat-square&amp;logo=docker&amp;logoColor=60A5FA" alt="Docker" />
 </p>
 
 #### Databases
