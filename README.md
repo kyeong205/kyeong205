@@ -10,10 +10,11 @@
 <p>
   <img src="https://img.shields.io/badge/JavaScript-202B3D?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-202B3D?style=flat-square&amp;logo=typescript&amp;logoColor=60A5FA" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-202B3D?style=flat-square&amp;logo=python&amp;logoColor=FDE047" alt="Python" />
   <img src="https://img.shields.io/badge/Java-202B3D?style=flat-square&amp;logo=openjdk&amp;logoColor=F8FAFC" alt="Java" />
   <img src="https://img.shields.io/badge/C-202B3D?style=flat-square&amp;logo=c&amp;logoColor=93C5FD" alt="C" />
   <img src="https://img.shields.io/badge/C%2B%2B-202B3D?style=flat-square&amp;logo=cplusplus&amp;logoColor=93C5FD" alt="C++" />
-  <img src="https://img.shields.io/badge/C%23-202B3D?style=flat-square" alt="C#" />
+  <img src="https://raw.githubusercontent.com/kyeong205/kyeong205/main/assets/badges/csharp.svg" alt="C#" />
   <img src="https://img.shields.io/badge/Kotlin-202B3D?style=flat-square&amp;logo=kotlin&amp;logoColor=C4B5FD" alt="Kotlin" />
   <img src="https://img.shields.io/badge/Dart-202B3D?style=flat-square&amp;logo=dart&amp;logoColor=67E8F9" alt="Dart" />
   <img src="https://img.shields.io/badge/HTML-202B3D?style=flat-square&amp;logo=html5&amp;logoColor=FDBA74" alt="HTML" />
@@ -38,8 +39,8 @@
 <p>
   <img src="https://img.shields.io/badge/MySQL-202B3D?style=flat-square&amp;logo=mysql&amp;logoColor=93C5FD" alt="MySQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-202B3D?style=flat-square&amp;logo=postgresql&amp;logoColor=93C5FD" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Oracle-202B3D?style=flat-square" alt="Oracle" />
-  <img src="https://img.shields.io/badge/SQL%20Server-202B3D?style=flat-square" alt="SQL Server" />
+  <img src="https://raw.githubusercontent.com/kyeong205/kyeong205/main/assets/badges/oracle.svg" alt="Oracle" />
+  <img src="https://raw.githubusercontent.com/kyeong205/kyeong205/main/assets/badges/microsoftsqlserver.svg" alt="SQL Server" />
 </p>
 
 ## Farm
