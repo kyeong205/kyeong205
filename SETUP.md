@@ -6,7 +6,7 @@
 
 ## 파일 구성
 
-- `README.md`: GitHub 프로필에 표시되는 소개, 기술 배지, 통계 및 기여도 이미지.
+- `README.md`: GitHub 프로필에 표시되는 헤더, 기술 배지, 통계 및 기여도 이미지.
 - `.github/workflows/snake.yml`: 실제 기여도 데이터로 SVG를 생성하고 `output` 브랜치에 배포.
 - `output` 브랜치: 자동 생성된 라이트·다크 SVG. 직접 수정하지 않습니다.
 

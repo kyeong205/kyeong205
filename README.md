@@ -4,16 +4,11 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:134e4a,55:0f766e,100:2563eb&amp;height=210&amp;section=header&amp;text=kyeong205&amp;fontSize=62&amp;fontColor=ffffff&amp;fontAlignY=40&amp;desc=Full-Stack%20Developer&amp;descSize=20&amp;descAlignY=63&amp;animation=fadeIn" alt="kyeong205 · Full-Stack Developer" width="100%" />
   </picture>
 
-  <h3>사용자 경험과 서버 로직을 연결하는 개발자</h3>
   <p>React · TypeScript · Java · Spring Boot</p>
   <a href="https://github.com/kyeong205?tab=repositories">
     <img src="https://img.shields.io/badge/Explore-Repositories-0F766E?style=flat-square&amp;logo=github&amp;logoColor=white" alt="공개 저장소 둘러보기" />
   </a>
 </div>
-
-## About
-
-안녕하세요, **kyeong205**입니다. React 기반 프론트엔드와 Java · Spring Boot 기반 백엔드를 중심으로 웹 애플리케이션을 개발합니다. 이해하기 쉬운 화면과 명확한 데이터 흐름, 유지보수하기 좋은 코드를 지향합니다.
 
 ## Tech Stack
 
