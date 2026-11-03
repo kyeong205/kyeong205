@@ -10,7 +10,7 @@
 - `.github/workflows/snake.yml`: 실제 기여도 데이터로 SVG를 생성하고 `output` 브랜치에 배포.
 - `output` 브랜치: 자동 생성된 라이트·다크 SVG. 직접 수정하지 않습니다.
 
-주요 스택은 확인한 웹·서버·Unity 구현을 중심으로 표시하고, 세부 경험과 도구는 접을 수 있는 목록으로 분리합니다. 로컬 조사에서 실제 TypeScript 소스와 Nginx 설정을 확인하지 못해 두 기술은 공개 스택에서 보류했습니다. 프로젝트에 포함된 기술이 곧 개인의 숙련도나 단독 구현을 의미하지는 않습니다. 회사 프로젝트 정보나 확인되지 않은 경력·성과는 추가하지 않습니다.
+기술 스택은 사용자가 제시한 주요 언어·프레임워크·플랫폼·DB만 표시합니다. 세부 라이브러리와 도구 목록은 넣지 않습니다.
 
 ## 자동 갱신과 권한
 
@@ -44,6 +44,6 @@ WakaTime 같은 업무 시간 측정 기능은 포함하지 않았습니다. 향
 1. Actions 실행 결과가 `success`인지 확인합니다.
 2. `output` 브랜치에 `github-contribution-grid-snake.svg`, `github-contribution-grid-snake-dark.svg`가 있는지 확인합니다.
 3. 프로필에서 헤더, 배지, 통계, 스네이크를 확인합니다. `<picture>`는 브라우저의 `prefers-color-scheme`에 따라 이미지를 선택하고 라이트 이미지를 기본값으로 사용합니다.
-4. 농장은 600px, 통계 카드는 480px 폭으로 지정하고 별도 고정 높이를 주지 않습니다. 통계와 추가 경험은 details 안에 배치합니다. GitHub의 반응형 이미지 스타일로 좁은 화면에서는 축소되며 배지는 줄바꿈됩니다.
+4. 농장은 600px, 통계 카드는 480px 폭으로 지정하고 별도 고정 높이를 주지 않습니다. 통계는 details 안에 배치합니다. GitHub의 반응형 이미지 스타일로 좁은 화면에서는 축소되며 배지는 줄바꿈됩니다.
 
 참고: [프로필 README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme), [예약 이벤트와 비활성화](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).

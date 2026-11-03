@@ -5,55 +5,38 @@
 
 ## Tech Stack
 
-#### Frontend
+#### Languages
+
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-202B3D?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-202B3D?style=flat-square&amp;logo=typescript&amp;logoColor=60A5FA" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Java-202B3D?style=flat-square&amp;logo=openjdk&amp;logoColor=F8FAFC" alt="Java" />
+  <img src="https://img.shields.io/badge/C%23-202B3D?style=flat-square" alt="C#" />
+  <img src="https://img.shields.io/badge/Kotlin-202B3D?style=flat-square&amp;logo=kotlin&amp;logoColor=C4B5FD" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Dart-202B3D?style=flat-square&amp;logo=dart&amp;logoColor=67E8F9" alt="Dart" />
+  <img src="https://img.shields.io/badge/HTML-202B3D?style=flat-square&amp;logo=html5&amp;logoColor=FDBA74" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-202B3D?style=flat-square&amp;logo=css&amp;logoColor=93C5FD" alt="CSS" />
+</p>
+
+#### Frameworks &amp; Platforms
 
 <p>
   <img src="https://img.shields.io/badge/React-202B3D?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/JavaScript-202B3D?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-202B3D?style=flat-square&amp;logo=tailwindcss&amp;logoColor=67E8F9" alt="Tailwind CSS" />
-</p>
-
-#### Backend
-
-<p>
-  <img src="https://img.shields.io/badge/Java-202B3D?style=flat-square&amp;logo=openjdk&amp;logoColor=F8FAFC" alt="Java" />
   <img src="https://img.shields.io/badge/Spring%20Boot-202B3D?style=flat-square&amp;logo=springboot&amp;logoColor=86EFAC" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Node.js-202B3D?style=flat-square&amp;logo=nodedotjs&amp;logoColor=86EFAC" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Android-202B3D?style=flat-square&amp;logo=android&amp;logoColor=86EFAC" alt="Android" />
+  <img src="https://img.shields.io/badge/Flutter-202B3D?style=flat-square&amp;logo=flutter&amp;logoColor=67E8F9" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Unity-202B3D?style=flat-square&amp;logo=unity&amp;logoColor=F8FAFC" alt="Unity" />
 </p>
 
-#### 3D
+#### Databases
 
 <p>
-  <img src="https://img.shields.io/badge/Unity%20WebGL-202B3D?style=flat-square&amp;logo=unity&amp;logoColor=F8FAFC" alt="Unity WebGL" />
-  <img src="https://img.shields.io/badge/C%23-202B3D?style=flat-square" alt="C#" />
-</p>
-
-#### Database
-
-<p>
+  <img src="https://img.shields.io/badge/MySQL-202B3D?style=flat-square&amp;logo=mysql&amp;logoColor=93C5FD" alt="MySQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-202B3D?style=flat-square&amp;logo=postgresql&amp;logoColor=93C5FD" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Oracle-202B3D?style=flat-square" alt="Oracle" />
   <img src="https://img.shields.io/badge/SQL%20Server-202B3D?style=flat-square" alt="SQL Server" />
 </p>
-
-#### Infrastructure
-
-<p>
-  <img src="https://img.shields.io/badge/Docker-202B3D?style=flat-square&amp;logo=docker&amp;logoColor=60A5FA" alt="Docker" />
-  <img src="https://img.shields.io/badge/Ubuntu-202B3D?style=flat-square&amp;logo=ubuntu&amp;logoColor=FDBA74" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/IIS-202B3D?style=flat-square" alt="IIS" />
-</p>
-
-<details>
-<summary>More experience & tools</summary>
-
-| Area | Technologies |
-| --- | --- |
-| Frontend | HTML · CSS · Redux Toolkit · Vite · Axios · i18next |
-| Backend | Spring Security · JDBC · MyBatis · JPA · Flyway · WebSocket |
-| Android | Kotlin · Jetpack Compose · Retrofit · OkHttp · Room · Hilt |
-| Tools | Git · GitHub · VS Code |
-
-</details>
 
 ## Farm
 
