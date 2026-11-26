@@ -6,11 +6,11 @@
 
 ## 파일 구성
 
-- `README.md`: GitHub 프로필에 표시되는 헤더, 기술 배지, 통계 및 기여도 이미지.
+- `README.md`: GitHub 프로필에 표시되는 헤더, 기술 배지, 동물농장 및 기여도 이미지.
 - `.github/workflows/snake.yml`: 실제 기여도 데이터로 SVG를 생성하고 `output` 브랜치에 배포.
 - `output` 브랜치: 자동 생성된 라이트·다크 SVG. 직접 수정하지 않습니다.
 
-기술 스택은 사용자가 제시한 주요 언어·프레임워크·플랫폼·DB만 표시합니다. 세부 라이브러리와 도구 목록은 넣지 않습니다.
+기술 스택은 업무·개인 프로젝트에서 사용 비중이 큰 주요 언어·프레임워크·플랫폼·DB만 표시합니다. 세부 라이브러리와 도구 목록은 넣지 않습니다.
 
 ## 자동 갱신과 권한
 
@@ -27,15 +27,14 @@
 | --- | --- | --- |
 | 애니메이션 헤더 | [Capsule Render](https://github.com/kyechan99/capsule-render) | 불필요 |
 | 기술 배지 | [Shields.io](https://shields.io/) | 불필요 |
-| GitHub Stats · Top Languages | [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended) 공개 인스턴스 | 불필요 |
 | 동물농장 | [Gitanimals](https://www.gitanimals.org/) | 사용자가 생성한 농장 이미지 연동 |
 | 기여도 SVG | [Platane/snk](https://github.com/Platane/snk) + GitHub Actions | 자동 발급 `GITHUB_TOKEN` |
 
 Gitanimals는 사용자가 제공한 농장 URL을 그대로 사용합니다. 별도 Secret이나 API 키는 저장하지 않습니다.
 
-통계는 외부 서비스가 자체 캐시에 따라 갱신합니다. 이 저장소의 Actions는 스네이크를 갱신합니다. 외부 서비스 장애나 GitHub 이미지 프록시 캐시로 이미지 표시가 지연될 수 있습니다.
+헤더·배지·농장 이미지는 외부 서비스가 자체 캐시에 따라 갱신합니다. 이 저장소의 Actions는 스네이크를 갱신합니다. 외부 서비스 장애나 GitHub 이미지 프록시 캐시로 이미지 표시가 지연될 수 있습니다.
 
-Top Languages는 기본적으로 공개 소유 비포크 저장소를 대상으로 합니다. 조직·타인 저장소에 기여한 코드나 비공개 회사 코드를 이 카드로 추정하지 않습니다. 데이터가 없으면 서비스가 제공하는 `No languages data.` 상태를 그대로 표시하며 수치를 만들지 않습니다. 개인 토큰을 외부 통계 서비스에 전달하지 않습니다.
+GitHub Stats·Top Languages 카드는 공개 저장소만 집계해 비공개 회사 업무가 반영되지 않으므로 넣지 않았습니다. 비공개 기여는 프로필 설정의 비공개 기여 표시로 잔디와 스네이크에만 횟수로 반영됩니다.
 
 WakaTime 같은 업무 시간 측정 기능은 포함하지 않았습니다. 향후 추가하려면 별도 가입·수집 동의·API 키 관리가 필요합니다.
 
@@ -43,7 +42,7 @@ WakaTime 같은 업무 시간 측정 기능은 포함하지 않았습니다. 향
 
 1. Actions 실행 결과가 `success`인지 확인합니다.
 2. `output` 브랜치에 `github-contribution-grid-snake.svg`, `github-contribution-grid-snake-dark.svg`가 있는지 확인합니다.
-3. 프로필에서 헤더, 배지, 통계, 스네이크를 확인합니다. `<picture>`는 브라우저의 `prefers-color-scheme`에 따라 이미지를 선택하고 라이트 이미지를 기본값으로 사용합니다.
-4. 농장은 600px, 통계 카드는 480px 폭으로 지정하고 별도 고정 높이를 주지 않습니다. 통계는 details 안에 배치합니다. GitHub의 반응형 이미지 스타일로 좁은 화면에서는 축소되며 배지는 줄바꿈됩니다.
+3. 프로필에서 헤더, 배지, 농장, 스네이크를 확인합니다. `<picture>`는 브라우저의 `prefers-color-scheme`에 따라 이미지를 선택하고 라이트 이미지를 기본값으로 사용합니다.
+4. 농장은 600px 폭으로 지정하고 별도 고정 높이를 주지 않습니다. GitHub의 반응형 이미지 스타일로 좁은 화면에서는 축소되며 배지는 줄바꿈됩니다.
 
 참고: [프로필 README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme), [예약 이벤트와 비활성화](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
